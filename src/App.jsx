@@ -8,7 +8,7 @@ import Aboutpage from "./pages/Aboutpage";
 function App() {
 
   return (
-    <div classname ="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <>
     <Routes>
       <Route element={<RootLayout/>}>
         <Route path="/" element={<Homepage/>}/>
@@ -16,7 +16,7 @@ function App() {
         <Route path="/Contact" element={<Contactpage/>}/>
       </Route>
     </Routes>
-    </div>
+    </>
   )
 }
 

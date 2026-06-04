@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 
 function RootLayout(){
     return(
-        <>
-        <Sidebar/>
-        <Outlet/>
-        <Footer/>
-        </>
+        <div classname ="max-w-7xl mx-auto px-4 m-h-screen">
+            <Sidebar/>
+            <Outlet/>
+            <Footer/>
+        </div>
     )
 }
 export default RootLayout
