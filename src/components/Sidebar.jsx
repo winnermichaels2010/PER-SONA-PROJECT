@@ -153,7 +153,7 @@ function Sidebar () {
     
     <div className="bg-blue-900 text-white flex items-center justify-between px-6 py-4 p-20 sticky top-0 gap-8 z-10">
       {/* Logo */}
-      <div className="text-2xl font-bold flex">
+      <div className="text-sm md:text-lg lg:text-2xl font-bold flex">
         <BsBrilliance />PER'SONA
       </div>
 
