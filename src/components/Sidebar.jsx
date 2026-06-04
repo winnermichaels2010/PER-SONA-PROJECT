@@ -159,7 +159,7 @@ function Sidebar () {
 
       {/* Menu */}
       <nav>
-        <ul className="flex items-center gap-5">
+        <ul className="flex items-center gap-5 text-sm md:text-lg lg:text-2xl ">
           <li>
             <NavLink
               to="/"
