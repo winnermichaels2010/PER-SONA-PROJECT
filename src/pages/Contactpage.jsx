@@ -30,7 +30,7 @@ import {
 const Contactpage = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gray-100 px-4 py-10">
-      <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl p-4 md:p-12">
+      <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl p-2 md:p-12">
         <h1 className="text-4xl font-bold text-center text-blue-900 mb-3">
           Contact Me
         </h1>
@@ -40,7 +40,7 @@ const Contactpage = () => {
           out.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-2 gap-6">
           <a
             href="mailto:winnermichael2010@gmail.com"
             className="flex items-center gap-4 p-5 rounded-xl shadow-md hover:shadow-lg transition"

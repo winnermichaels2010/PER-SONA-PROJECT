@@ -32,7 +32,9 @@ function Sidebar () {
           <li>
             <NavLink
               to="/"
-              className="flex items-center gap-2 hover:text-gray-300 transition"
+              
+               className={({isActive}) => isActive ? "flex items-center gap-2 hover:text-purple-100 transition bg-purple-500 p-0.5 rounded " : "flex items-center gap-2 hover:text-gray-300 transition"}
+              
             >
               <span className="hidden lg:inline md:inline"><Dashboard /></span>Home
             </NavLink>
@@ -41,7 +43,7 @@ function Sidebar () {
           <li>
             <NavLink
               to="/About"
-              className="flex items-center gap-2 hover:text-gray-300 transition"
+              className={({isActive}) => isActive ? "flex items-center gap-2 hover:text-purple-100 transition bg-purple-500 p-0.5 rounded " : "flex items-center gap-2 hover:text-gray-300 transition"}
             >
               About Me
             </NavLink>
@@ -50,7 +52,7 @@ function Sidebar () {
           <li>
             <NavLink
               to="/Contact"
-              className="flex items-center gap-2 hover:text-gray-300 transition"
+              className={({isActive}) => isActive ? "flex items-center gap-2 hover:text-purple-100 transition bg-purple-500 p-0.5 rounded " : "flex items-center gap-2 hover:text-gray-300 transition"}
             >
               <span className="hidden lg:inline md:inline"><FaEnvelope /></span>Contact Me
             </NavLink>
